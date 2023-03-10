@@ -1,0 +1,348 @@
+body{
+    margin-top: 15px;
+    margin: 0px;
+    background-image: url(background\ principal.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    background-attachment: fixed;
+    
+}
+/*HEADER*/
+header{
+    background-color: white;
+    color: #3b7197;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+    
+    
+}
+.divinfo{
+    
+    background-color: rgb(196, 180, 180);
+    height: 20px;
+    margin-top: -17px;
+    color: #3b7197;
+    
+}
+.pend{
+    text-align: center;
+}
+.whatsapp{
+    width: 15px;
+    height: 15px;
+}
+.divnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #3b7197;
+    
+}
+nav :hover{
+    color:#000 ;
+}
+.logo{
+    width: 80px;
+    
+}
+a{
+    text-decoration: none;
+    color: #3b7197;;
+}
+button{
+    background: #CAE5FF;
+	color: white;
+	border-radius: 30px;
+	border:1px solid #000;
+	height: 50px;
+	width: 120 px;
+	font: bold 15px arial,sans-serif;
+	
+}
+
+.msc:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+    
+}
+.marquehover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+    
+}
+/*HEADER*/
+
+/*MAIN*/
+.imgprincipal{
+    width: 100%;
+    margin-top: 105px;
+
+}
+.exconcir{
+    background-color: #000;
+}
+
+.msc{
+    border: 1px solid #000;
+    border-radius: 20px;
+
+    position: relative;
+    bottom: 50px;
+    left: 650px;
+    
+
+    width: 220px;
+    height: 40px;
+    background-color: #CAE5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.secnav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.secnav:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+
+.exames{
+    border:2px solid #000;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    position: relative;
+    right: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/download\ \(1\).jpg);
+}
+.dexames{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 100px;
+    background-color: #000;
+    font-size: 30px;
+
+    position: relative;
+    bottom: 160px;
+    right: 80px;
+    
+}
+
+.consultas{
+    border:2px solid #000;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    position: relative;
+    right: 120px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/image\ 53.png)
+}
+.dconsultas{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 120px;
+    background-color: #000;
+    font-size: 30px;
+
+    position: relative;
+    bottom: 160px;
+    right: 20px;
+
+    
+}
+
+.cirurgias{
+    border:2px solid #000;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    position: relative;
+    left: -20px;
+
+    
+
+    display: flex;
+    justify-content: center;
+    
+
+    background-image: url(/image\ 25.png);
+}
+.dcirurgias{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 115px;
+    background-color: #000;
+    font-size: 30px;
+
+    position: relative;
+    right: 100px;
+    bottom: 160px;
+    left: 70px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: row;
+}
+.fotosc{
+    width: 470px;
+    height: 350px;
+    margin-bottom: 100px;
+    
+}
+.contconvenio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  
+
+}
+
+.conv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-radius: 40px;
+    width: 500px;
+
+}
+.imageconv{
+    width: 110px;
+}
+
+
+.primeira{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.segunda{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;  
+}
+
+/*FOOTER*/
+footer{
+    background-color: white;
+    
+}
+
+.footerlogo{
+    list-style-type: none;
+}
+
+.servpv{
+    display: flex;
+    flex-direction: column;
+    color: #3b7197;
+    font-size: 25px;
+    position: relative;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerpv{
+    height: 300px;
+}
+
+.servifotter{
+    position: relative;
+    right: 10px;
+    
+    
+}
+
+.cons{
+    font-size: 25px;
+}
+
+.exa{
+    font-size: 25px;
+}
+
+.cir{
+    font-size: 25px;
+}
+
+.pro{
+    font-size: 25px;
+}
+
+.endereço{
+    list-style: url(/Vector.png);
+    text-align: center;
+    color: #3b7197;
+}
+
+.avsapo{
+    position: relative;
+    bottom: 15px;
+}
+
+
+.wpp{
+    list-style: url(/ic_outline-whatsapp.png);
+    color: #3F3F3F;
+    font-size: 20px;
+    color: #3b7197;
+    position: relative;
+}
+
+.num{
+    position: relative;
+    bottom: 8px;
+}
+
+.fim{
+    text-align: center;
+    background-color: white;
+}
+
+.marcar{
+    position: relative;
+    left: 67px;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    background-color: #d7eafd;
+    color: #3b7197;
+    border: none;
+    border-radius: 30px;
+}
+.hoverfut:hover {
+    color: #000;
+}
+.container{
+    
+}
+
+
