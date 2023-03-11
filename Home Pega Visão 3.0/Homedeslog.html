@@ -7,6 +7,8 @@
     <title>Clínica Pega Visão</title>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="animation.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
@@ -17,16 +19,34 @@
         
         <div class="divnav">
             <img class="logo" src="logo pv.png" alt="">
-            <nav><a href="">HOME</a> </nav>
-            <nav><a href="">QUEM SOMOS</a></nav>
-            <nav><a href="">SERVIÇOS</a></nav>
-            <button><a href="">ENTRE AQUI</a></button>
+            <nav><a href="" style=>HOME</a> </nav>
+            <nav><a href=""style=>QUEM SOMOS</a></nav>
+            <nav><a href="" style=>SERVIÇOS</a></nav>
+            <button><a href="" class="entreaq">ENTRE AQUI</a></button>
         </div>
     </header>
     <main>
-        <section class="carousel">
+        
+        <section class="carousel"> <!--CARROSEL SLIDE PARA ARRASTAR AS IMAGENS PARA O LADO-->
             <div class="slider">
-                <div class="slide"><img class="imgprincipal" src="/medico.png" alt=""></div>
+                <div class="swiffy-slider">
+                    <ul class="slider-container">
+                        <li ><img class="auto" src="/medico.png" style="width: 100%;height: 500px"></li>
+                        <li ><img class="auto1" src="/banner1-1.jpg" style="width: 100%;height: 500px; margin-top: 60px;"></li>
+                        <li ><img class="auto2" src="/maquina.jpg" style="width: 100%;height: 500px; margin-top: 60px;"></li>
+                    </ul>
+                
+                    <div class="setas">
+                        <button type="button" class="slider-nav"></button>
+                        <button type="button" class="slider-nav slider-nav-next"></button>
+                    </div>
+                
+                    <div class="slider-indicators">
+                        <button class="active" style="position: static;"></button>
+                        <button></button>
+                        <button></button>
+                    </div>
+                </div>
                 
                 <a class="marq" href="">
                     <div class="msc">
@@ -37,7 +57,7 @@
             </div>
         </section>
         
-        <section class="secnav">
+        <section class="secnav"> <!--iMAGENS QUE REDIRECIONAM PARA AS PÁGINAS NAVS-->
             <a href="" >
                 <img src="image 25.png" class="exames"> </img>
                 <div >
@@ -64,14 +84,14 @@
         
         </section>
         
-        <sectionclass="imagens">
+        <sectionclass="imagens"> <!--iMAGENS DA CLÍNICA-->
             <img class="fotosc" src="image 44.png" alt="">
             <img class="fotosc" src="image 45.png" alt="">
             <img class="fotosc" src="image 46.png" alt="">
         </section>
 
-        <div class="contconvenio">   
-            <h2>Convênios</h2>     
+        <div class="contconvenio">   <!--DIV DE CONVÊNIOS ACEITOS PELA CLÍNICA-->
+            <h2 class="titconv">Convênios</h2>     
             <div class="conv" style="background-color: white; padding:10px">
 
             <div class="primeira"> 
@@ -90,6 +110,7 @@
         
         
     </main>
+    <!--FOOTER OU RODAPÉ DA PÁGINA-->
     <footer>
 
         <div class="all">
